@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "553630570415",
+    "firebase_url": "https://mystore-4b940.firebaseio.com",
+    "project_id": "mystore-4b940",
+    "storage_bucket": "mystore-4b940.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553630570415:android:3ad3f3340251ae5f39015a",
+        "android_client_info": {
+          "package_name": "com.satyam.mystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553630570415-0ab6esc38oft5ge77rq9gv44f590c2pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satyam.mystore",
+            "certificate_hash": "15f5ad11a42b7ba17028d1d4f88ebf2c2c2502f6"
+          }
+        },
+        {
+          "client_id": "553630570415-ljtjftbnbr3lirm3t5v0ldm58destjrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmKZ-y3jU1BokS7etGMI18R78di7cnbQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553630570415-ljtjftbnbr3lirm3t5v0ldm58destjrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

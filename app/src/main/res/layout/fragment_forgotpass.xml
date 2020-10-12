@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotpassFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/lock" />
+
+        <TextView
+            android:id="@+id/forgtp"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_below="@id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-96dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            android:text="Forgot Password?"
+            android:textColor="#61ed89"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:layout_below="@id/forgtp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="29dp"
+            android:text="Don't worry we just need Your Registered Email address and it's done!"
+            android:textColor="#6172ed"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/enteremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_margin="8dp"
+            android:backgroundTint="#e63535"
+            android:drawableLeft="@drawable/mail"
+            android:hint="Enter your Registered Email id"
+            android:textColor="#e63535"
+            android:textColorHint="#e63535"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBarhori"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="99dp"
+            android:layout_height="28dp"
+            android:layout_below="@+id/enteremail"
+            android:layout_alignEnd="@+id/enteremail"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="19dp"
+            android:visibility="invisible"
+            android:layout_marginEnd="150dp"
+            android:indeterminate="true"
+            android:theme="@style/RedprogressBar" />
+
+        <Button
+            android:id="@+id/resetpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressBarhori"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="45dp"
+            android:background="#ee1c25"
+            android:text="Reset Password"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkemail"
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resetpassword"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="1dp"
+            android:text="Check your Inbox after clicking the button above     "
+            android:textColor="#e63535"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/goback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkemail"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="47dp"
+            android:text="@string/go_back"
+            android:textColor="#ee1c25"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
